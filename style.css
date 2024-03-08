@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(149, 146, 142);
+    text-align: justify;
 }
 
 header {
@@ -44,6 +45,22 @@ nav a {
 section {
     padding: 20px;
     margin-bottom: 20px;
+}
+
+#boxBotoes input[type="submit"],
+#boxBotoes input[type="reset"] {
+    padding: 10px 20px;
+    border: 2px solid #ffffff; 
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#boxBotoes input[type="submit"]:hover,
+#boxBotoes input[type="reset"]:hover{
+    background-color: #000000;
+    color: #ffffff;
 }
 
 footer {
